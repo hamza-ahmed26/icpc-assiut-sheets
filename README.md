@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="photo_2026-05-08_20-19-41.jpg" width="200" style="border-radius: 50%; border: 3px solid #2ea44f;">
+  <img src="C:\github" width="200" style="border-radius: 50%; border: 3px solid #2ea44f;">
 </p>
 
 # 🚀 رحلة الـ 10 شيتات: الحكاية من الصفر تماماً (Assiut Training)
