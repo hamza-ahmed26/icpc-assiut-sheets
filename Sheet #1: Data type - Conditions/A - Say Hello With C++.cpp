@@ -1,3 +1,4 @@
+// لينك السؤال : https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/A
 /*
 مبدئيا كدة 
 في التعليق تكتب عادي باي لغة  طول ما محطوطة بين العلامتي دول
