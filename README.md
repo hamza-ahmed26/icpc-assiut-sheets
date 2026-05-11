@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="C:\github\photo_2026-05-08_20-19-41.jpg" width="200" style="border-radius: 50%; border: 3px solid #2ea44f;">
+  <img src="https://github.com/user-attachments/assets/064b73af-6af8-46a0-8a80-bedf05687146" width="100%">
 </p>
-
 # 🚀 رحلة الـ 10 شيتات: الحكاية من الصفر تماماً (Assiut Training)
 
 يا أهلاً بيك يا صديقي! هنا مش مجرد حلول لأسيوط، هنا "كورس بلدي" بشرح فيه كل فكرة من تحت الصفر تماماً. أنا **حمزة أحمد**، طالب IT في "علوم المنيا"، وقررت أبسط الليلة دي لنفسي ولغيري.
