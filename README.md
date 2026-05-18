@@ -20,7 +20,7 @@
 | الشيت | الاسم | الحالة | التقدم |
 | :--- | :--- | :---: | :---: |
 | **Sheet #1** | Data type - Conditions | ✅ منتهي | ![100%](https://progress-bar.xyz/100) |
-| **Sheet #2** | Loops | ⏳ ✅ منتهي | ![100%](https://progress-bar.xyz/100) |
+| **Sheet #2** | Loops |  ✅ منتهي | ![100%](https://progress-bar.xyz/100) |
 | **Sheet #3** | Arrays | ⏳ **شغالين فيه حالياً** | ![31%](https://progress-bar.xyz/31) |
 | **Sheet #4** | Strings | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
 | **Sheet #5** | Functions | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
