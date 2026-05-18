@@ -13,25 +13,21 @@
 1. **الشكل المختصر (`//`):** شرح سريع في سطر واحد.
 2. **الشكل الكامل (`/* ... */`):** "البرواز" اللي بحكي فيه قصة المسألة وفكرتها.
 
----
-
-## 🗂️ خريطة الطريق (Progress Tracker)
-
+---## 🗂️ خريطة الطريق (Progress Tracker)
 | الشيت | الاسم | الحالة | التقدم |
 | :--- | :--- | :---: | :---: |
 | **Sheet #1** | Data type - Conditions | ✅ منتهي | ![100%](https://progress-bar.xyz/100) |
-| **Sheet #2** | Loops |  ✅ منتهي | ![100%](https://progress-bar.xyz/100) |
-| **Sheet #3** | Arrays | ⏳ **شغالين فيه حالياً** | ![31%](https://progress-bar.xyz/31) |
-| **Sheet #4** | Strings | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
-| **Sheet #5** | Functions | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
-| **Sheet #6** | Math - Geometry | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
-| **Sheet #7** | Recursion | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
-| **Sheet #8** | General Easy | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
+| **Sheet #2** | Loops | ✅ منتهي | ![100%](https://progress-bar.xyz/100) |
+| **Sheet #3** | Arrays | ⏳ شغالين فيه | ![65%](https://progress-bar.xyz/65) |
+| **Sheet #4** | Strings | ⏳ شغالين فيه | ![31%](https://progress-bar.xyz/31) |
+| **Sheet #5** | Functions | ⏳ شغالين فيه | ![47%](https://progress-bar.xyz/47) |
+| **Sheet #6** | Math - Geometry | ⏳ شغالين فيه | ![31%](https://progress-bar.xyz/31) |
+| **Sheet #7** | Recursion | ⏳ شغالين فيه | ![54%](https://progress-bar.xyz/54) |
+| **Sheet #8** | General Easy | ⏳ شغالين فيه | ![8%](https://progress-bar.xyz/8) |
 | **Sheet #9** | General Medium | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
 | **Sheet #10** | General Hard | 🎯 القادم | ![0%](https://progress-bar.xyz/0) |
 
-> **إجمالي التقدم: 17%** — `45/260 مسألة`
-
+> **إجمالي التقدم: 43%** — `108/251 مسألة`
 ---
 
 ## 🛠️ العدة والعتاد
