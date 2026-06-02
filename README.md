@@ -1,9 +1,10 @@
+<!-- ════════════════ بانر متحرك ════════════════ -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5A0,50:22d3ee,100:fb923c&height=200&section=header&text=رحلة%20الـ%2010%20شيتات&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Assiut%20Training%20•%20من%20الصفر%20تماماً&descSize=18&descAlignY=60&animation=fadeIn&fontAlign=50" width="100%" alt="banner" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=00E5A0&center=true&vCenter=true&width=620&lines=%D9%85%D8%B4+%D9%8من+%D9%85%D8%AC%D8%B1%D8%AF+%D8%AD%D9%84%D9%88%D9%84+%E2%80%94+%D8%AF%D9%87+%D9%84%D9%83%D9%88%D8%B1%D8%B3+%D8%A8%D9%84%D8%AF%D9%8A;Competitive+Programming+from+Zero;One+AC+at+a+time+%F0%9F%A7%A0;C%2B%2B+%E2%80%A2+Codeforces+%E2%80%A2+ICPC+Assiut" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=00E5A0&center=true&vCenter=true&width=620&lines=%D9%85%D8%B4+%D9%8من+%D9%85%D8%AC%D8%B1%D8%AF+%D8%AD%D9%84%D9%88%D9%8حد+%E2%80%94+%D8%AF%D9%87+%D9%84%D9%83%D9%88%D8%B1%D8%B3+%D8%A8%D9%84%D8%AF%D9%8I;Competitive+Programming+from+Zero;One+AC+at+a+time+%F0%9F%A7%A0;C%2B%2B+%E2%80%A2+Codeforces+%E2%80%A2+ICPC+Assiut" alt="typing" />
 </p>
 
 ---
@@ -26,7 +27,7 @@
 ## 🛢️ إجمالي التقدّم
 
 <p align="center">
-  <img src="progress-tank.svg" width="350" alt="overall progress tank: 52 percent, 129 of 249 problems" />
+  <img src="progress-tank.svg" width="100%" alt="overall progress tank: 52 percent, 129 of 249 problems" />
 </p>
 
 ---
