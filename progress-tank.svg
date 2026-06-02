@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" fill="none" role="img" aria-label="Overall progress tank: 52 percent, 129 of 249 problems">
+  <defs>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#00E5A0"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#11161f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00E5A0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00E5A0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tankClip">
+      <rect x="60" y="40" width="320" height="280" rx="28"/>
+    </clipPath>
+    <style>
+      @keyframes waveA { from { transform: translateX(0); } to { transform: translateX(-360px); } }
+      @keyframes waveB { from { transform: translateX(0); } to { transform: translateX(360px); } }
+      @keyframes bob   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+      @keyframes rise  { from { transform: translateY(280px); } to { transform: translateY(0); } }
+      @keyframes bubble { 0% { transform: translateY(0) scale(0.6); opacity: 0; } 15% { opacity: 0.8; } 100% { transform: translateY(-150px) scale(1); opacity: 0; } }
+      @keyframes pulse  { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+      @keyframes count  { 0%,100% { opacity: 1; } 50% { opacity: 0.7; } }
+      .wlayer { animation: rise 2.2s cubic-bezier(.16,.84,.44,1) both; }
+      .wa { animation: waveA 5s linear infinite; }
+      .wb { animation: waveB 7s linear infinite; }
+      .surface { animation: bob 3.5s ease-in-out infinite; }
+      .b1 { animation: bubble 4s ease-in infinite; }
+      .b2 { animation: bubble 5.2s ease-in infinite 1s; }
+      .b3 { animation: bubble 4.6s ease-in infinite 2.1s; }
+      .glowring { animation: pulse 3s ease-in-out infinite; }
+      .pct { animation: count 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- ambient glow -->
+  <ellipse cx="220" cy="180" rx="260" ry="180" fill="url(#glow)" class="glowring"/>
+
+  <!-- tank body -->
+  <rect x="60" y="40" width="320" height="280" rx="28" fill="url(#glass)" stroke="#1f2733" stroke-width="2"/>
+
+  <!-- liquid (clipped + rising) -->
+  <g clip-path="url(#tankClip)">
+    <!-- fill level: 52% of 280 = ~146px, so top at y = 320 - 146 = 174 -->
+    <g class="wlayer">
+      <g class="surface">
+        <rect x="60" y="174" width="320" height="160" fill="url(#liquid)"/>
+        <!-- back wave -->
+        <path class="wb" fill="#00E5A0" fill-opacity="0.45" d="M60 174 q45 -16 90 0 t90 0 t90 0 t90 0 t90 0 v160 h-540 z"/>
+        <!-- front wave -->
+        <path class="wa" fill="#22d3ee" fill-opacity="0.55" d="M60 178 q45 16 90 0 t90 0 t90 0 t90 0 t90 0 v156 h-540 z"/>
+      </g>
+      <!-- bubbles -->
+      <circle class="b1" cx="140" cy="300" r="5" fill="#d1fff4" fill-opacity="0.7"/>
+      <circle class="b2" cx="230" cy="310" r="7" fill="#d1fff4" fill-opacity="0.6"/>
+      <circle class="b3" cx="310" cy="305" r="4" fill="#d1fff4" fill-opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- tank rim highlight -->
+  <rect x="60" y="40" width="320" height="280" rx="28" fill="none" stroke="#00E5A0" stroke-width="2" stroke-opacity="0.6"/>
+  <!-- tick marks -->
+  <g stroke="#2a3340" stroke-width="2">
+    <line x1="60" y1="110" x2="80" y2="110"/>
+    <line x1="60" y1="180" x2="80" y2="180"/>
+    <line x1="60" y1="250" x2="80" y2="250"/>
+  </g>
+
+  <!-- big percentage inside tank -->
+  <text x="220" y="195" class="pct" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#ffffff" text-anchor="middle">52%</text>
+  <text x="220" y="225" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#d1fff4" text-anchor="middle" opacity="0.85">129 / 249 problems</text>
+
+  <!-- right side stats -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="430" y="78" font-size="26" font-weight="800" fill="#00E5A0">OVERALL PROGRESS</text>
+    <text x="430" y="104" font-size="14" fill="#8b98a9">رحلة الـ 10 شيتات · Assiut Training</text>
+
+    <!-- mini stat cards -->
+    <g>
+      <rect x="430" y="128" width="160" height="64" rx="12" fill="#0d1117" stroke="#00E5A0" stroke-opacity="0.5"/>
+      <text x="446" y="156" font-size="13" fill="#8b98a9">SOLVED</text>
+      <text x="446" y="182" font-size="24" font-weight="800" fill="#00E5A0">129</text>
+
+      <rect x="606" y="128" width="160" height="64" rx="12" fill="#0d1117" stroke="#22d3ee" stroke-opacity="0.5"/>
+      <text x="622" y="156" font-size="13" fill="#8b98a9">REMAINING</text>
+      <text x="622" y="182" font-size="24" font-weight="800" fill="#22d3ee">120</text>
+
+      <rect x="430" y="206" width="160" height="64" rx="12" fill="#0d1117" stroke="#fb923c" stroke-opacity="0.5"/>
+      <text x="446" y="234" font-size="13" fill="#8b98a9">SHEETS DONE</text>
+      <text x="446" y="260" font-size="24" font-weight="800" fill="#fb923c">3 / 10</text>
+
+      <rect x="606" y="206" width="160" height="64" rx="12" fill="#0d1117" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="622" y="234" font-size="13" fill="#8b98a9">IN PROGRESS</text>
+      <text x="622" y="260" font-size="24" font-weight="800" fill="#a78bfa">5</text>
+    </g>
+
+    <text x="430" y="300" font-size="13" fill="#8b98a9">Language: <tspan fill="#00E5A0" font-weight="700">C++</tspan>  ·  Platform: <tspan fill="#22d3ee" font-weight="700">Codeforces</tspan></text>
+  </g>
+</svg>
